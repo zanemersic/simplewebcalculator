@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Simple Web Calculator</title>
+</head>
+<body>
+    <div class="calcBorderPosition">
+        <div class="calcBorder">
+            <div id="calcDisplay">
+
+            </div>
+            <div class="calcButtonsPosition">
+                <div class="calcButtons">
+                    <button onclick="buttonPressed('7')">7</button>
+                    <button onclick="buttonPressed('8')">8</button>
+                    <button onclick="buttonPressed('9')">9</button>
+                    <button onclick="divide()">/</button>
+                    
+                    <button onclick="buttonPressed('4')">4</button>
+                    <button onclick="buttonPressed('5')">5</button>
+                    <button onclick="buttonPressed('6')">6</button>
+                    <button onclick="multiply()">*</button>
+                    
+                    <button onclick="buttonPressed('1')">1</button>
+                    <button onclick="buttonPressed('2')">2</button>
+                    <button onclick="buttonPressed('3')">3</button>
+                    <button onclick="substract()">-</button>
+                    
+                    <button onclick="buttonPressed('0')">0</button>
+                    <button onclick="clearCalc()">C</button>
+                    <button onclick="finalise()">=</button>
+                    <button onclick="adjust()">+</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
