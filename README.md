@@ -29,7 +29,7 @@ Since this is a vanilla web project, no build tools or package managers are requ
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+   git clone [https://github.com/zanemersic/simplewebcalculator.git](https://github.com/zanemersic/simplewebcalculator.git)
    ```
 2. Navigate to the project directory.
 3. Open the `index.html` file directly in your web browser.
